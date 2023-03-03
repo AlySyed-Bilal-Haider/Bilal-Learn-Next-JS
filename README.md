@@ -48,7 +48,7 @@ where some of the route parameters are optional
 5. Link component to navigate on click of an element
 6: How to create Programmetically Navigations.
 7: How to create 404 Custom page.
-## Prerendering 
+## Pre-rendering and Data Fetching.
 Next.js has two forms of pre-rendering: Static Generation and Server-side Rendering.
 The difference is in when it generates the HTML for a page. 
 Static Generation is the pre-rendering method that generates the HTML at build time.
