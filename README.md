@@ -36,3 +36,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Routing Summary
+1. Page based routing mechanism - Pages are associated with a route based on their file name
+2. Nested routes - Nested folder structure, files will be automatically routed in the same way in
+the URL
+3. Dynamic routes - Can be created by adding square brackets to a page name
+4. Catch all routes - Add three dots inside square brackets to create a catch all route. Helpful
+when you want different URLs for the same page layout or even when you're working with pages
+where some of the route parameters are optional
+5. Link component to navigate on click of an element
+6: How to create Programmetically Navigations.
+7: How to create 404 Custom page.
