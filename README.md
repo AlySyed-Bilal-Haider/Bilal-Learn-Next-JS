@@ -62,5 +62,15 @@ Types of pre-rendering
   2. Server-side Rendering
    - data fetching
 Client-side data fetching
- Combining pre-rendering with client-side data fetching
+ Combining pre-rendering with client-side data fetching.
+ ## Pre-rendering 
+ React vs Next
+ By default, Next JS pre-renders every page in the application
+ What does pre-render mean?
+ Next JS generates HTML for each page in advance instead of having it all done by client-side
+JavaScript.
+![image](https://user-images.githubusercontent.com/87702448/222713171-c5388496-8a40-482c-9e46-8e2f861b09bd.png)
+
+
+
 
