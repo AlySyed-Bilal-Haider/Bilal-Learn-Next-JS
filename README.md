@@ -105,7 +105,8 @@ Ex: Blog pages, e-commerce Product pages, documentation and marketing pages.
 Next JS, by default, without any configuration, statically generates every page in our app when
 we build it for production. This allows the page to be cached by a CDN and indexed by a search
 engine.
-
+## Static Generation & Data
+![image](https://user-images.githubusercontent.com/87702448/222725055-af9d0484-71ad-4c44-bede-54afc14aab24.png)
 
 
 
