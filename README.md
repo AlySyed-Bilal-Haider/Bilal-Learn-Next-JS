@@ -98,7 +98,13 @@ Recommended method to pre-render pages whenever possible.
 
 Page can be built once, cached by a CDN and served to the client almost instantly.
 
-Ex: Blog pages, e-commerce Product pages, documentation and marketing pages
+Ex: Blog pages, e-commerce Product pages, documentation and marketing pages.
+
+## Static Generation contd.
+
+Next JS, by default, without any configuration, statically generates every page in our app when
+we build it for production. This allows the page to be cached by a CDN and indexed by a search
+engine.
 
 
 
