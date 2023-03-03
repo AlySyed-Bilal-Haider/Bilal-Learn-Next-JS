@@ -1,14 +1,19 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 function Home() {
+  const rounter = useRouter();
+  const programaticallyNavigations = () => {
+    rounter.push("/Product");
+  };
   return (
     <>
-      <h1>
-        <Link href="/Product">Product</Link>
-      </h1>
-      <h1>
-        <Link href="/Product/1">Product Ones</Link>
-      </h1>
+      <button
+        style={{ width: "10%", height: "30px" }}
+        onClick={programaticallyNavigations}
+      >
+        Product
+      </button>
     </>
   );
 }
