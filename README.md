@@ -84,7 +84,6 @@ JavaScript.
   With a pre-rendered page, the HTML is already generated and loads faster.
   
 2. Pre-rendering helps with SEO.
-3. 
   If you're building a blog or an e-commerce site, SEO is a concern.
   
   With a React app, if the search engine hits your page, it only sees a div tag with id equal to root
