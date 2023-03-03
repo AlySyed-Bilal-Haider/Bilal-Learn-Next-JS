@@ -87,7 +87,19 @@ JavaScript.
   If you're building a blog or an e-commerce site, SEO is a concern.
   
   With a React app, if the search engine hits your page, it only sees a div tag with id equal to root
-  If search engine hits a pre-rendered page though,
+  
+## Static Generation
+A method of pre-rendering where the HTML pages are generated at build time.
+
+The HTML with all the data that makes up the content of the web page are generated in advance
+when you build your application.
+
+Recommended method to pre-render pages whenever possible.
+
+Page can be built once, cached by a CDN and served to the client almost instantly.
+
+Ex: Blog pages, e-commerce Product pages, documentation and marketing pages
+
 
 
 
