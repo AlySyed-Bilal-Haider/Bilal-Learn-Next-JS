@@ -73,6 +73,18 @@ Client-side data fetching
 JavaScript.
 ![image](https://user-images.githubusercontent.com/87702448/222713171-c5388496-8a40-482c-9e46-8e2f861b09bd.png)
 
+## Why pre-render?
+ 1. Pre-rendering improves performance
+  In a React app, you need to wait for the JavaScript to be executed
+  Perhaps fetch data from an external API and then render the UI
+  There is a wait time for the user
+  With a pre-rendered page, the HTML is already generated and loads faster
+2. Pre-rendering helps with SEO
+  If you're building a blog or an e-commerce site, SEO is a concern
+  With a React app, if the search engine hits your page, it only sees a div tag with id equal to root
+  If search engine hits a pre-rendered page though,
+
+
 
 
 
